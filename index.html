@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<style>
+    /* Style pour la liste des projets avec background */
+    .project-list {
+        list-style: none;
+        padding: 0;
+    }
+
+    .project-list li {
+        background-size: cover;
+        background-position: center;
+        margin-bottom: 15px;
+        border-radius: 8px;
+        font-family: 'Verdana', sans-serif;
+        /* Changement de police */
+    }
+
+    .project-list li a {
+        display: block;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.6);
+        /* Overlay sombre */
+        color: white;
+        text-decoration: none;
+        /* Pas de soulignement */
+        border-radius: 8px;
+        font-weight: bold;
+    }
+
+    .project-list li a:hover {
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+</style>
+
+<body>
+    <header class="fade-in">
+        <h1>youusoupha's Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="bienvenue.html">Accueil</a></li>
+                <li><a href="details.html">En Détails</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="portfolio-block" class="horizontal">
+        <div class="main-container">
+            <div class="block about-block">
+                <h2>Youssoupha Gueye</h2>
+                <div class="about-content">
+                    <div class="profile-photo">
+                        <img src="image/ma.photo.jpeg" alt="Ma photo de profil">
+                    </div>
+                    <div class="about-text">
+                        <p><strong>Développeur Web Passionné</strong></p>
+                        <p>Je suis un développeur web avec une passion pour créer des sites et application grace a ma
+                            motivation </p>
+                    </div>
+                </div>
+            </div>
+            <div class="block projects-block">
+                <h3>Projets Essentiels</h3>
+                <ul class="project-list">
+                    <li style="background-image: url('image/capture.projets1.png');">
+                        <a href="projets/1projets.html">Mon premier projet remarquable dans le web</a>
+                    </li>
+                    <li style="background-image: url('image/capture.projets2.png');">
+                        <a href="projets/projet2.html">Mon deuxième projet remarquable dans le web</a>
+                    </li>
+                    <li style="background-image: url('image/capture.projet3.png');">
+                        <a href="projets/3projetshtml.html">Mon troisième projet remarquable dans le web</a>
+                    </li>
+                    <li style="background-image: url('image/capture.projets4.png');">
+                        <a href="projets/4projet.html">Mon quatrième projet remarquable dans le web</a>
+                    </li>
+                </ul>
+                <strong>
+                    <p>Chaque projet reflète ma créativité et mon engagement envers l'innovation.</p>
+                </strong>
+                <div class="block contact-block">
+                    <p id="Contact" class="Contact">
+                        <strong>
+                            <h3>contact</h3>
+                        </strong>
+                    <div>
+                        <fieldset>
+
+
+                            <legend>Contact</legend>
+                            <form>
+                                <div class="C1"><label for="NOM">Nom Complet<br>
+                                        <input type="text" name="NOM" id="NOM"></label></div>
+
+                                <div class="C1"><label for="email">Email<br>
+                                        <input type="email" name="email" id="email"></label></div>
+                                <div class="C1"><label for="sujet">À propos de :</label>
+                                    <select id="sujet" name="sujet">
+                                        <option>Question</option>
+                                        <option>Collaboration</option>
+                                        <option>Autre</option>
+                                    </select>
+                                </div>
+                                <div class="C1"><label for="message">Message</label>
+                                    <textarea id="message" placeholder="Message"></textarea>
+                                </div>
+
+                                </textarea>
+                        </fieldset>
+
+                        <div class="C1"><button class="btn-envoyer" id="Envoyer" type="submit">Envoyer</button></div>
+                        </form>
+
+                    </div>
+                    <h2>Lien de Contact</h2>
+                    <ul class="contact-links">
+                        <li class="Contact"> <a href="https://mail.google.com/mail/u/0/#inbox"><img
+                                    src="image/image.gmail.jpeg" alt="email" width="50px"></a></li>
+                        <li class="Contact"><a
+                                href="https://www.linkedin.com/in/papij-papij-2338463b9/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3B4PwPYCGwSRqc3P7%2BnFZeOQ%3D%3D"><img
+                                    src="image/image.linkledin.jpeg" alt="LinkedIn" width="50px">
+                        <li class="Contact"><a href="https://github.com/papib0000-eng"><img
+                                    src="image/image.github.jpeg" alt="GitHub" width="50px"></a></li>
+                    </ul>
+                </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 youssoupha</p>
+    </footer>
+    <div class="PIEDPAGE">
+        <div>
+            <p class="PP"><i>
+                    @youssoupha Gueye - Développeur Web Passionné
+                </i></p>
+            <ul>
+                <li class="instagram"><a
+                        href="https://www.instagram.com/userx.youss?igsh=MTA5N3VkdWp0NnVzag%3D%3D&utm_source=qr"><img
+                            src="image/image insta.jpeg" alt="snapchat" width="50px"></a>
+                </li>
+                <li class="snapchat"><a
+                        href="https://www.snapchat.com/add/youssoupha.g?share_id=rN546jZZS9inSd4oTFJNxA&locale=fr_SN"><img
+                            src="image/image.snap.jpeg" alt="Snapchat" width="50px"></a></li>
+                <li class="twitter"><a href="https://x.com/indivuduality7?s=21"><img src="image/image.twitter.jpeg"
+                            alt="Twitter" width="50px"></a></li>
+            </ul>
+</body>
+
+</html>
